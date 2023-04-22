@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemBooksList"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Books"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itemGenresList"
+        android:icon="@drawable/ic_baseline_mood_24"
+        android:title="Genres"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itemCreatorList"
+        android:icon="@drawable/ic_baseline_insert_chart_24"
+        android:title="Top Creator"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itemProfile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        app:showAsAction="always"
+        />
+</menu>
