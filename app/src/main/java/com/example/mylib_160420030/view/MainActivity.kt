@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        navController = (supportFragmentManager.findFragmentById(R.id.hostFragment) as NavHostFragment).navController
+        navController = (supportFragmentManager.findFragmentById(R.id.fragmentHost) as NavHostFragment).navController
         NavigationUI.setupActionBarWithNavController(this, navController)
 
         //Menghubungkan antara bottom nav view dengan nav controller

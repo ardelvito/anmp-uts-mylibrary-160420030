@@ -16,12 +16,19 @@
         app:menu="@menu/bottom_menu" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/hostFragment"
+        android:id="@+id/fragmentHost"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="409dp"
-        android:layout_height="673dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
         app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mylib_navigation" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
