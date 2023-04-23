@@ -30,7 +30,7 @@ class BooksListFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(BooksListViewModel::class.java)
         viewModel.refresh()
 
-        val recView = view.findViewById<RecyclerView>(R.id.recViewBooksList)
+        val recView = view.findViewById<RecyclerView>(R.id.recViewGenresList)
         recView?.layoutManager = LinearLayoutManager(context)
         recView?.adapter = booksListAdapter
 

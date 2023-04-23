@@ -10,7 +10,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mylib_160420030.R
 import com.example.mylib_160420030.model.Authors
-import com.example.mylib_160420030.model.Books
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 
@@ -25,7 +24,7 @@ class LeaderboardAuthorsAdapter (val authorsList: ArrayList<Authors>): RecyclerV
     }
 
     override fun onBindViewHolder(holder: AuthorListViewHolder, position: Int) {
-        holder.view.findViewById<TextView>(R.id.txtAuthorFullName).text = authorsList[position].name
+        holder.view.findViewById<TextView>(R.id.txtGenreList).text = authorsList[position].name
         holder.view.findViewById<TextView>(R.id.txtAuthorBirthDate).text = authorsList[position].born
         holder.view.findViewById<TextView>(R.id.txtAuthorNationality).text = authorsList[position].nationality
         val authorWorks =  authorsList[position].notableWorks?.joinToString(", ")
