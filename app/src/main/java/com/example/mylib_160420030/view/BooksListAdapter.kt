@@ -4,9 +4,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mylib_160420030.R
 import com.example.mylib_160420030.R.id.txtBookGenres
@@ -24,10 +26,10 @@ class BooksListAdapter (val booksList: ArrayList<Books>): RecyclerView.Adapter<B
     }
 
     override fun onBindViewHolder(holder: BooksListViewHolder, position: Int) {
-        holder.view.findViewById<TextView>(R.id.txtId).text = booksList[position].id
+        holder.view.findViewById<TextView>(R.id.txtId).text = booksList[position].id.toString()
         holder.view.findViewById<TextView>(R.id.txtBookTitle).text = booksList[position].title
         holder.view.findViewById<TextView>(R.id.txtBookAuthor).text = booksList[position].author
-        holder.view.findViewById<TextView>(R.id.txtBookRating).text = booksList[position].rating
+        holder.view.findViewById<TextView>(R.id.txtBookRating).text = booksList[position].rating.toString()
         val genres =  booksList[position].genres?.joinToString(", ")
         holder.view.findViewById<TextView>(txtBookGenres).text = genres.toString()
 
@@ -53,6 +55,12 @@ class BooksListAdapter (val booksList: ArrayList<Books>): RecyclerView.Adapter<B
                     Log.d("Error Load", e.toString())
                 }
             })
+
+        var bookId = booksList[position].id
+        holder.view.findViewById<Button>(R.id.btnBookDetails).setOnClickListener{
+            val action = BooksListFragmentDirections.actionBookDetails(bookId)
+            Navigation.findNavController(it).navigate(action)
+        }
 
     }
 

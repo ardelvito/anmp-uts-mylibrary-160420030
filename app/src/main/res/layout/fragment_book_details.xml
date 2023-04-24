@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.BookDetailsFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtBookDescDetails"
+                android:layout_width="257dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="77dp"
+                android:justificationMode="inter_word"
+                android:text="Description"
+                app:flow_verticalAlign="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBookRatingDetails" />
+
+            <TextView
+                android:id="@+id/txtBookRatingDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="186dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="185dp"
+                android:text="Rating"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBookGenresDetail" />
+
+            <TextView
+                android:id="@+id/txtBookGenresDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="182dp"
+                android:text="Genres"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBookPublishDetails" />
+
+            <ImageView
+                android:id="@+id/imgCoverBookDetails"
+                android:layout_width="191dp"
+                android:layout_height="219dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="110dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtBookTitleDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="192dp"
+                android:text="Title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgCoverBookDetails" />
+
+            <TextView
+                android:id="@+id/txtBookAuthorDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="184dp"
+                android:text="Author"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBookTitleDetails" />
+
+            <Button
+                android:id="@+id/btnReadBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="161dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="162dp"
+                android:text="Read"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBookDescDetails" />
+
+            <TextView
+                android:id="@+id/txtBookPublishDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="166dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="167dp"
+                android:layout_marginBottom="8dp"
+                android:text="Publish Date"
+                app:layout_constraintBottom_toTopOf="@+id/txtBookGenresDetail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBookAuthorDetails" />
+
+            <ProgressBar
+                android:id="@+id/progressBarBookDetails"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/imgCoverBookDetails"
+                app:layout_constraintEnd_toEndOf="@+id/imgCoverBookDetails"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/imgCoverBookDetails"
+                app:layout_constraintTop_toTopOf="@+id/imgCoverBookDetails" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

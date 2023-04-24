@@ -6,17 +6,19 @@
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1515" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/drawable/black_arrow_forward.xml" value="0.153" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.153" />
+        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/drawable/ic_baseline_insert_chart_24.xml" value="0.1545" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.1" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/drawable/ic_baseline_mood_24.xml" value="0.2555" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1515" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
-        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/author_list_item.xml" value="0.4180064308681672" />
-        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/books_list_item.xml" value="0.536" />
+        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/author_list_item.xml" value="0.4" />
+        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/books_list_item.xml" value="0.4748201438848921" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/creators_list_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/fragment_book_details.xml" value="0.4" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/fragment_books_list.xml" value="0.264" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/fragment_genres_list.xml" value="0.4" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/fragment_leaderboard_authors.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/fragment_my_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/fragment_my_profile.xml" value="0.4" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/layout/genres_list_item.xml" value="0.4676258992805755" />
         <entry key="..\:/Users/ardel/MyLib_160420030/app/src/main/res/menu/bottom_menu.xml" value="0.4" />
       </map>

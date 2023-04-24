@@ -9,7 +9,11 @@
         android:id="@+id/itemBooksList"
         android:name="com.example.mylib_160420030.view.BooksListFragment"
         android:label="fragment_books_list"
-        tools:layout="@layout/fragment_books_list" />
+        tools:layout="@layout/fragment_books_list" >
+        <action
+            android:id="@+id/actionBookDetails"
+            app:destination="@id/bookDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/itemGenresList"
         android:name="com.example.mylib_160420030.view.GenresListFragment"
@@ -25,4 +29,12 @@
         android:name="com.example.mylib_160420030.view.MyProfileFragment"
         android:label="fragment_my_profile"
         tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/bookDetailsFragment"
+        android:name="com.example.mylib_160420030.view.BookDetailsFragment"
+        android:label="fragment_book_details"
+        tools:layout="@layout/fragment_book_details" >
+        <argument android:name="idBook"
+            app:argType="integer" />
+    </fragment>
 </navigation>

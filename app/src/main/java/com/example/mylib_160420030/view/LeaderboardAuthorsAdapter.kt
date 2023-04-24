@@ -36,7 +36,7 @@ class LeaderboardAuthorsAdapter (val authorsList: ArrayList<Authors>): RecyclerV
 
         Picasso.get()
             .load(imgURL)
-            .resize(250, 250)
+            .resize(350, 450)
             .centerCrop()
             .into(imageView, object : Callback {
                 override fun onSuccess() {

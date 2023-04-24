@@ -8,7 +8,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
-        android:layout_height="250dp"
+        android:layout_height="270dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -26,76 +26,76 @@
             <ImageView
                 android:id="@+id/imgAuthor"
                 android:layout_width="wrap_content"
-                android:layout_height="170dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.187"
+                app:layout_constraintVertical_bias="0.347"
                 tools:srcCompat="@tools:sample/avatars" />
-
-            <TextView
-                android:id="@+id/txtGenreList"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="36dp"
-                android:text="Author Full Name"
-                app:layout_constraintStart_toEndOf="@+id/imgAuthor"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/txtAuthorBirthDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
-                android:text="Author Birth Date"
-                app:layout_constraintStart_toEndOf="@+id/imgAuthor"
-                app:layout_constraintTop_toBottomOf="@+id/txtGenreList" />
 
             <Button
                 android:id="@+id/btnAuthorDetail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
-                android:layout_marginBottom="17dp"
+                android:layout_marginBottom="16dp"
                 android:text="Detail"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
-
-            <TextView
-                android:id="@+id/txtAuthorNationality"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="16dp"
-                android:text="Author Nationality"
-                app:layout_constraintStart_toEndOf="@+id/imgAuthor"
-                app:layout_constraintTop_toBottomOf="@+id/txtAuthorBirthDate" />
+                app:layout_constraintTop_toBottomOf="@+id/txtAuthorWorks" />
 
             <TextView
                 android:id="@+id/txtAuthorWorks"
-                android:layout_width="207dp"
-                android:layout_height="46dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="12dp"
+                android:layout_width="182dp"
+                android:layout_height="88dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
                 android:text="Author Works"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imgAuthor"
                 app:layout_constraintTop_toBottomOf="@+id/txtAuthorNationality" />
 
+            <TextView
+                android:id="@+id/txtGenreList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="32dp"
+                android:text="Author Full Name"
+                app:layout_constraintStart_toEndOf="@+id/imgAuthor"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtAuthorNationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Author Nationality"
+                app:layout_constraintStart_toEndOf="@+id/imgAuthor"
+                app:layout_constraintTop_toBottomOf="@+id/txtAuthorBirthDate" />
+
+            <TextView
+                android:id="@+id/txtAuthorBirthDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:text="Author Birth Date"
+                app:layout_constraintStart_toEndOf="@+id/imgAuthor"
+                app:layout_constraintTop_toBottomOf="@+id/txtGenreList" />
+
             <ProgressBar
                 android:id="@+id/progressBarAuthorList"
                 style="?android:attr/progressBarStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="40dp"
                 app:layout_constraintEnd_toEndOf="@+id/imgAuthor"
+                app:layout_constraintHorizontal_bias="0.437"
                 app:layout_constraintStart_toStartOf="@+id/imgAuthor"
                 app:layout_constraintTop_toTopOf="@+id/imgAuthor" />
 
