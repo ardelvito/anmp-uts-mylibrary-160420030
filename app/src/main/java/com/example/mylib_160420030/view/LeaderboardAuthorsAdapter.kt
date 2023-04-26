@@ -4,9 +4,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mylib_160420030.R
 import com.example.mylib_160420030.model.Authors
@@ -30,6 +32,8 @@ class LeaderboardAuthorsAdapter (val authorsList: ArrayList<Authors>): RecyclerV
         val authorWorks =  authorsList[position].notableWorks?.joinToString(", ")
         holder.view.findViewById<TextView>(R.id.txtAuthorWorks).text = authorWorks.toString()
 
+        Log.d("ini id author",  authorsList[position].id.toString())
+
         var imageView = holder.view.findViewById<ImageView>(R.id.imgAuthor)
         var progressBar = holder.view.findViewById<ProgressBar>(R.id.progressBarAuthorList)
         val imgURL = authorsList[position].url
@@ -52,6 +56,12 @@ class LeaderboardAuthorsAdapter (val authorsList: ArrayList<Authors>): RecyclerV
                     Log.d("Error Load", e.toString())
                 }
             })
+
+        val authorId = authorsList[position].id
+        holder.view.findViewById<Button>(R.id.btnAuthorDetail).setOnClickListener{
+            val action = LeaderboardAuthorsFragmentDirections.actionAuthorDetails(authorId)
+            Navigation.findNavController(it).navigate(action)
+        }
     }
 
     fun updateBooksList(newAuthors:ArrayList<Authors>){

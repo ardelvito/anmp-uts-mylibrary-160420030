@@ -71,7 +71,7 @@ class BookDetailsFragment: Fragment() {
             bookTitle?.text = it.title.toString()
             bookAuthor?.text = it.author.toString()
             bookRating?.text = it.rating.toString()
-            bookPublish?.text = it.publisedDate.toString()
+            bookPublish?.text = it.publishedDate.toString()
             bookGenres?.text =  it.genres?.joinToString(", ")
             bookDesc?.text = it.description.toString()
             Log.d("Genres", it.genres.toString())

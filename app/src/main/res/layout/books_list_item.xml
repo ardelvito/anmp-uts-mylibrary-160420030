@@ -44,7 +44,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txtBookTitle"
+                android:id="@+id/txtBookTitleRent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -67,24 +67,24 @@
                 app:layout_constraintVertical_bias="1.0" />
 
             <TextView
-                android:id="@+id/txtBookAuthor"
+                android:id="@+id/txtBookAuthorRent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:text="Author"
                 app:layout_constraintStart_toEndOf="@+id/imgBookCover"
-                app:layout_constraintTop_toBottomOf="@+id/txtBookTitle" />
+                app:layout_constraintTop_toBottomOf="@+id/txtBookTitleRent" />
 
             <TextView
-                android:id="@+id/txtBookGenres"
+                android:id="@+id/txtReturnDateRent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:text="Genre"
                 app:layout_constraintStart_toEndOf="@+id/imgBookCover"
-                app:layout_constraintTop_toBottomOf="@+id/txtBookAuthor" />
+                app:layout_constraintTop_toBottomOf="@+id/txtBookAuthorRent" />
 
             <TextView
                 android:id="@+id/txtBookRating"
@@ -94,10 +94,10 @@
                 android:layout_marginTop="16dp"
                 android:text="Rating"
                 app:layout_constraintStart_toEndOf="@+id/imgBookCover"
-                app:layout_constraintTop_toBottomOf="@+id/txtBookGenres" />
+                app:layout_constraintTop_toBottomOf="@+id/txtReturnDateRent" />
 
             <ProgressBar
-                android:id="@+id/progressBarBooksList"
+                android:id="@+id/progressBarBooksDetails"
                 style="?android:attr/progressBarStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

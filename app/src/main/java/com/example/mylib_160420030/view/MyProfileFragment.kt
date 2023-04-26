@@ -6,10 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
 import com.example.mylib_160420030.R
 import com.example.mylib_160420030.viewmodel.ProfileDetailsViewModel
 import com.squareup.picasso.Callback
@@ -76,6 +78,16 @@ class MyProfileFragment : Fragment() {
                             Log.d("Error Load", e.toString())
                         }
                     })
+
+                view?.findViewById<Button>(R.id.btnRentHistory)?.setOnClickListener{
+                    val action = MyProfileFragmentDirections.actionRentHistory()
+                    Navigation.findNavController(it).navigate(action)
+                }
+
+                view?.findViewById<Button>(R.id.btnWishlist)?.setOnClickListener{
+                    val action = MyProfileFragmentDirections.actionWishlist()
+                    Navigation.findNavController(it).navigate(action)
+                }
 
             }
 

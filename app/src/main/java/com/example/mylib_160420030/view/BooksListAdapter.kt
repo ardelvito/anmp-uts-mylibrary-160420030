@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mylib_160420030.R
-import com.example.mylib_160420030.R.id.txtBookGenres
+import com.example.mylib_160420030.R.id.txtReturnDateRent
 import com.example.mylib_160420030.model.Books
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
@@ -27,14 +27,14 @@ class BooksListAdapter (val booksList: ArrayList<Books>): RecyclerView.Adapter<B
 
     override fun onBindViewHolder(holder: BooksListViewHolder, position: Int) {
         holder.view.findViewById<TextView>(R.id.txtId).text = booksList[position].id.toString()
-        holder.view.findViewById<TextView>(R.id.txtBookTitle).text = booksList[position].title
-        holder.view.findViewById<TextView>(R.id.txtBookAuthor).text = booksList[position].author
+        holder.view.findViewById<TextView>(R.id.txtBookTitleRent).text = booksList[position].title
+        holder.view.findViewById<TextView>(R.id.txtBookAuthorRent).text = booksList[position].author
         holder.view.findViewById<TextView>(R.id.txtBookRating).text = booksList[position].rating.toString()
         val genres =  booksList[position].genres?.joinToString(", ")
-        holder.view.findViewById<TextView>(txtBookGenres).text = genres.toString()
+        holder.view.findViewById<TextView>(txtReturnDateRent).text = genres.toString()
 
         var imageView = holder.view.findViewById<ImageView>(R.id.imgBookCover)
-        var progressBar = holder.view.findViewById<ProgressBar>(R.id.progressBarBooksList)
+        var progressBar = holder.view.findViewById<ProgressBar>(R.id.progressBarBooksDetails)
         val imgURL = booksList[position].coverImage
 
         Picasso.get()
