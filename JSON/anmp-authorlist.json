@@ -1,0 +1,73 @@
+[{
+		"id": 1,
+		"name": "Jane Austen",
+		"born": "16 December 1775",
+		"nationality": "English",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jane_Austen%2C_from_A_Memoir_of_Jane_Austen_%281870%29.jpg/220px-Jane_Austen%2C_from_A_Memoir_of_Jane_Austen_%281870%29.jpg",
+		"notableWorks": [
+			"Pride and Prejudice",
+			"Sense and Sensibility",
+			"Emma"
+		],
+		"bio": "Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century. Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security."
+	},
+	{
+		"id": 2,
+		"name": "Charles Dickens",
+		"born": "7 February 1812",
+		"nationality": "English",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/640px-Dickens_Gurney_head.jpg",
+		"notableWorks": [
+			"Oliver Twist",
+			"David Copperfield",
+			"Great Expectations"
+		],
+		"bio": "Charles Dickens was an English writer and social critic. He created some of the world's best-known fictional characters and is regarded by many as the greatest novelist of the Victorian era. His works enjoyed unprecedented popularity during his lifetime, and by the 20th century, critics and scholars had recognised him as a literary genius."
+	},
+	{
+		"id": 3,
+		"name": "Ernest Hemingway",
+		"born": "21 July 1899",
+		"nationality": "American",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/640px-ErnestHemingway.jpg",
+		"notableWorks": [
+			"The Sun Also Rises",
+			"A Farewell to Arms",
+			"For Whom the Bell Tolls"
+		],
+		"bio": "Ernest Hemingway was an American novelist, short story writer, and journalist. His economical and understated style had a strong influence on 20th-century fiction, while his life of adventure and his public image influenced later generations. Hemingway produced most of his work between the mid-1920s and the mid-1950s, and he won the Nobel Prize in Literature in 1954."
+	},
+	{
+		"id": 4,
+		"name": "Harper Lee",
+		"born": "28 April 1926",
+		"nationality": "American",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Photo_portrait_of_Harper_Lee_%28To_Kill_a_Mockingbird_dust_jacket%2C_1960%29.jpg",
+		"notableWorks": [
+			"To Kill a Mockingbird"
+		],
+		"bio": "Harper Lee was an American novelist best known for her 1960 novel To Kill a Mockingbird, which won the Pulitzer Prize for Fiction. Lee was born in Monroeville, Alabama, and studied law at the University of Alabama. Lee's novel has been praised for its deep exploration of racism and prejudice in the American South."
+	},
+	{
+		"id": 5,
+		"name": "J.R.R. Tolkien",
+		"born": "3 January 1892",
+		"nationality": "English",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg",
+		"notableWorks": [
+			"The Hobbit",
+			"The Lord of the Rings",
+			"The Silmarillion"
+		],
+		"bio": "J.R.R. Tolkien was an English writer, poet, philologist, and academic. He is best known as the author of the classic high fantasy works The Hobbit, The Lord of the Rings, and The Silmarillion. Tolkien was a professor of Anglo-Saxon at Oxford University, and his works have been translated into over 40 languages."
+	},
+	{
+		"id": 6,
+		"name": "Mark Twain",
+		"born": "November 30, 1835",
+		"nationality": "American",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mark_Twain_by_AF_Bradley.jpg/640px-Mark_Twain_by_AF_Bradley.jpg",
+		"notableWorks": ["The Adventures of Tom Sawyer", "Adventures of Huckleberry Finn"],
+		"bio": "Mark Twain, pseudonym of Samuel Langhorne Clemens, was an American humorist, journalist, lecturer, and novelist who acquired international fame for his travel narratives, especially The Innocents Abroad (1869), Roughing It (1872), and Life on the Mississippi (1883), and for his adventure stories of boyhood, especially The Adventures of Tom Sawyer (1876) and Adventures of Huckleberry Finn (1885). He is also known for his satirical works, including The Gilded Age: A Tale of Today (1873, written with Charles Dudley Warner), The Prince and the Pauper (1881), and A Connecticut Yankee in King Arthur’s Court (1889). Twain lived in Hannibal, Missouri, from age four to eighteen, a setting later used in Tom Sawyer and Huckleberry Finn. He worked as a printer, a Mississippi riverboat pilot, and a silver miner before he began writing. After the Civil War, he became a journalist in San Francisco, and in 1865, under his pen name, he wrote his first successful humorous story, “The Celebrated Jumping Frog of Calaveras County.”"
+	}
+]

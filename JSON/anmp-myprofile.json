@@ -1,0 +1,48 @@
+{
+    "id": "1234",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "123-456-7890",
+    "url": "https://randomuser.me/api/portraits/men/28.jpg",
+    "accountBalance": 50000,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+    },
+    "rentHistory": [
+        {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "publishedDate": "1960",
+        "description": "A Pulitzer Prize-winning novel set in the Deep South and inspired by the author's own experiences, about a young girl named Scout and her father, a lawyer who defends a black man falsely accused of rape.",
+        "coverImage": "https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UY327_FMwebp_QL65_.jpg",
+        "genres": ["Fiction", "Classic"],
+        "rating": 4.8
+        },
+        {
+        "id": 4,
+        "title": "1984",
+        "author": "George Orwell",
+        "publishedDate": "1949",
+        "description": "A dystopian novel set in a future totalitarian society, where the government monitors every aspect of citizens' lives and manipulates information to control them.",
+        "coverImage": "https://m.media-amazon.com/images/I/51ki8oVZEUL._SX331_BO1,204,203,200_.jpg",
+        "genres": ["Fiction", "Classic", "Dystopian"],
+        "rating": 4.6
+        }
+    ],
+    "wishlist": [
+        {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publishedDate": "1925",
+        "description": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, set in the Jazz Age of the 1920s.",
+        "coverImage": "https://m.media-amazon.com/images/I/41NssxNlPlS._SX331_BO1,204,203,200_.jpg",
+        "genres": ["Fiction", "Classic"],
+        "rating": 4.5
+        }
+    ]
+}

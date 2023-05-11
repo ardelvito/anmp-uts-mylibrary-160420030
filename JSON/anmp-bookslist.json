@@ -1,0 +1,105 @@
+{
+	"books": [{
+			"id": 1,
+			"title": "The Great Gatsby",
+			"author": "F. Scott Fitzgerald",
+			"publishedDate": "1925",
+			"description": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, set in the Jazz Age of the 1920s.",
+			"coverImage": "https://m.media-amazon.com/images/I/41NssxNlPlS._SX331_BO1,204,203,200_.jpg",
+			"genres": ["Fiction", "Classic"],
+			"rating": 4.5
+		},
+		{
+			"id": 2,
+			"title": "To Kill a Mockingbird",
+			"author": "Harper Lee",
+			"publishedDate": "1960",
+			"description": "A Pulitzer Prize-winning novel set in the Deep South and inspired by the author's own experiences, about a young girl named Scout and her father, a lawyer who defends a black man falsely accused of rape.",
+			"coverImage": "https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UY327_FMwebp_QL65_.jpg",
+			"genres": ["Fiction", "Classic"],
+			"rating": 4.8
+		},
+		{
+			"id": 3,
+			"title": "The Catcher in the Rye",
+			"author": "J.D. Salinger",
+			"publishedDate": "1951",
+			"description": "A novel about a teenage boy named Holden Caulfield, who is expelled from his prep school and spends a few days wandering around New York City, contemplating life and society.",
+			"coverImage": "https://m.media-amazon.com/images/I/71nXPGovoTL._AC_UY327_FMwebp_QL65_.jpg",
+			"genres": ["Fiction", "Classic"],
+			"rating": 4.3
+		},
+		{
+			"id": 4,
+			"title": "1984",
+			"author": "George Orwell",
+			"publishedDate": "1949",
+			"description": "A dystopian novel set in a future totalitarian society, where the government monitors every aspect of citizens' lives and manipulates information to control them.",
+			"coverImage": "https://m.media-amazon.com/images/I/51ki8oVZEUL._SX331_BO1,204,203,200_.jpg",
+			"genres": ["Fiction", "Classic", "Dystopian"],
+			"rating": 4.6
+		},
+		{
+			"id": 5,
+			"title": "The Hobbit",
+			"author": "J.R.R. Tolkien",
+			"publishedDate": "1937",
+			"description": "A fantasy novel about a hobbit named Bilbo Baggins who goes on a quest to reclaim a treasure guarded by a dragon, encountering dwarves, elves, and other creatures along the way.",
+			"coverImage": "https://m.media-amazon.com/images/I/A1SrMYiFdIL._AC_UY327_FMwebp_QL65_.jpg",
+			"genres": ["Fiction", "Fantasy", "Adventure"],
+			"rating": 4.7
+		},
+		{
+			"id": 6,
+			"title": "Pride and Prejudice",
+			"author": "Jane Austen",
+			"publishedDate": "1813",
+			"description": "A classic novel about the Bennet family and their five unmarried daughters, especially the independent and strong-willed Elizabeth, who falls in love with the wealthy Mr. Darcy.",
+			"coverImage": "https://m.media-amazon.com/images/I/61-TjYwzq5L._AC_UY327_FMwebp_QL65_.jpg",
+			"genres": ["Fiction", "Classic", "Romance"],
+			"rating": 4.4
+		},
+		{
+			"id": 7,
+			"title": "The Cat in the Hat",
+			"author": "Dr. Seuss",
+			"publishedDate": "1957-03-12",
+			"description": "The Cat in the Hat is a children's book written and illustrated by Theodor Geisel under the pen name Dr. Seuss. It tells the story of a cat's chaotic visit to the home of two children.",
+			"coverImage": "https://m.media-amazon.com/images/I/51NpGEKBQoL._SX361_BO1,204,203,200_.jpg",
+			"genres": ["Children's literature", "Humor"],
+			"rating": 4.5
+		},
+		{
+			"id": 8,
+			"title": "Green Eggs and Ham",
+			"author": "Dr. Seuss",
+			"publishedDate": "1960-08-12",
+			"description": "Green Eggs and Ham is a children's book by Dr. Seuss, first published on August 12, 1960. As of 2019, the book has sold 8 million copies worldwide.",
+			"coverImage": "https://m.media-amazon.com/images/I/712nTmzFFRL._AC_UY327_FMwebp_QL65_.jpg",
+			"genres": ["Children's literature", "Humor"],
+			"rating": 4.7
+		},
+		{
+			"id": 9,
+			"title": "The Giving Tree",
+			"author": "Shel Silverstein",
+			"publishedDate": "1964-01-01",
+			"description": "The Giving Tree is a children's picture book written and illustrated by Shel Silverstein. First published in 1964 by Harper & Row, it has become one of Silverstein's best-known titles, and has been translated into numerous languages.",
+			"coverImage": "https://m.media-amazon.com/images/I/41fR2KV7jzL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+			"genres": ["Children's literature", "Fable"],
+			"rating": 4.8
+
+		},
+		{
+			"id": 10,
+			"title": "Where the Wild Things Are",
+			"author": "Maurice Sendak",
+			"publishedDate": "1963-04-19",
+			"description": "Where the Wild Things Are is a 1963 children's picture book by American writer and illustrator Maurice Sendak, originally published by Harper & Row.",
+			"coverImage": "https://m.media-amazon.com/images/I/61+eQCDT0AL._AC_UL480_FMwebp_QL65_.jpg",
+			"genres": ["Children's literature", "Fantasy"],
+			"rating": 4.6
+
+		}
+	]
+}
