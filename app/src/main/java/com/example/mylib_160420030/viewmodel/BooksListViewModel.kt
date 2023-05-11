@@ -21,7 +21,7 @@ class BooksListViewModel(application: Application): AndroidViewModel(application
     fun refresh(){
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "https://pastebin.com/raw/48qvZCvC"
+        val url = "https://gist.githubusercontent.com/ardelvito/41495d8dfa7142f0765f5d0cea1ce14b/raw/06f71d69d59ada5ebad0bb05075a2798526f1bf7/anmp-bookslist.json"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,

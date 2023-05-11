@@ -21,7 +21,7 @@ class GenresListViewModel(application: Application): AndroidViewModel(applicatio
     fun refresh(){
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "https://pastebin.com/raw/BXCSwWFN"
+        val url = "https://gist.githubusercontent.com/ardelvito/3b140af8a53a5033c69939b62b5f20ae/raw/74f3ad4c899a1ab5d22a5d9a38b41423cf6b73a2/anmp-genreslist.json"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,

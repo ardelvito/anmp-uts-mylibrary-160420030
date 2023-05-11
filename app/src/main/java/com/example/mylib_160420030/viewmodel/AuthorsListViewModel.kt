@@ -22,7 +22,7 @@ class AuthorsListViewModel(application: Application): AndroidViewModel(applicati
     fun refresh(){
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "https://pastebin.com/raw/NxxM0PxE"
+        val url = "https://gist.githubusercontent.com/ardelvito/2e7e8d1c936771319409b97b561b13ec/raw/4319c989f7820d6663f86a97db7d3b7b212830ae/anmp-authorlist.json"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,
